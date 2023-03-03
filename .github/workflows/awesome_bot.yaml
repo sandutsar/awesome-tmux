@@ -14,10 +14,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: 2.6.10
     - name: Checks
       run: |
         gem install awesome_bot
-        awesome_bot --allow-redirect README.md
+        awesome_bot --allow-redirect --request-delay 1 README.md

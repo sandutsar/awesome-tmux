@@ -41,15 +41,18 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 
 ## <a name="tools"></a>Tools and session management
 
-- [automux](https://github.com/sriramkandukuri/automux) Wrappers to tmux commands, usefull for tmux based automation
+- [automux](https://github.com/sriramkandukuri/automux) Wrappers to tmux commands, useful for tmux based automation
 - [dmux](https://github.com/zdcthomas/dmux) Configurable tmux workspace manager written in Rust
 - [libtmux](https://github.com/tmux-python/libtmux) Python API for tmux
 - [powerline](https://github.com/powerline/powerline) Statusline plugin for vim, and provides statuslines and prompts for several other applications including tmux
+- [tmux-powerline](https://github.com/erikw/tmux-powerline) A hackable statusbar for tmux consisting of dynamic & beautiful looking segments, inspired by vim-powerline, written purely in bash.
 - [smug](https://github.com/ivaaaan/smug) A session manager for tmux written in Go
+- [t](https://github.com/joshmedeski/t-smart-tmux-session-manager) The smart tmux session manager
 - [tat](https://github.com/ryandotsmith/tat) Tab completion for tmux sessions
 - [teamocil](https://github.com/remi/teamocil) A simple tool used to automatically create windows and panes in tmux with YAML files
 - [tmex](https://github.com/evnp/tmex) A minimalist tmux layout manager
 - [tmux-cssh](https://github.com/zinic/tmux-cssh) Tmux with a "ClusterSSH"-like behavior
+- [tmux-conf](https://github.com/jaclu/tmux-conf) Meant for users running tmux on multiple hosts, not always running the same version. Generates tmux config files using version checks
 - [tmux-suspend](https://github.com/MunifTanjim/tmux-suspend) Suspend local session for painlessly working with nested remote session.
 - [tmux-up](https://github.com/jamesottaway/tmux-up) Bootstrap new `tmux` sessions without complex tools, DSLs, or dependencies
 - [tmuxake](https://github.com/nkh/tmuxake) A side-pane manager for tmux
@@ -72,6 +75,7 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [nord tmux](https://github.com/arcticicestudio/nord-tmux) An arctic, north-bluish clean and elegant tmux color theme.
 - [tmux-gruvbox](https://github.com/egel/tmux-gruvbox) Light and dark tmux theme
 - [tmux-nova](https://github.com/o0th/tmux-nova) Fully customizable tmux theme
+- [tokyo-night-tmux](https://github.com/janoamaral/tokyo-night-tmux) tokyo-night theme for tmux
 
 ## Status Bar
 
@@ -89,13 +93,19 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [tmux-mode-indicator](https://github.com/MunifTanjim/tmux-mode-indicator) Displays prompt indicating currently active Tmux mode.
 - [tmux-mpv-info](https://github.com/Feqzz/tmux-mpv-info) Displays the current song playing with MPV in your tmux status bar.
 - [tmux-mullvad](https://github.com/jaclu/tmux-mullvad) - Keep track of [Mullvad VPN](https://mullvad.net/) status.
-- [tmux-network-bandwidth](https://github.com/xamut/tmux-network-bandwidth) Show network bandwidth
+- [tmux-ludanta](https://github.com/vascomfnunes/tmux-ludanta) - What's playing
+  on an MPD local server.
+- [tmux-nerd-font-window-name](https://github.com/joshmedeski/tmux-nerd-font-window-name) Nerd Font icons for your tmux windows
+- [tmux-network-bandwidth](https://github.com/xamut/tmux-network-bandwidth) Show
+  network bandwidth
 - [tmux-nordvpn](https://github.com/maxrodrigo/tmux-nordvpn) Monitor the current NordVPN connection status.
 - [tmux-online-status](https://github.com/tmux-plugins/tmux-online-status) Tmux plugin that displays online status of your computer
 - [tmux-packet-loss](https://github.com/jaclu/tmux-packet-loss) - Displays packet loss % if at or above the specified threshold level
 - [tmux-piavpn](https://github.com/Brutuski/tmux-piavpn) Keep track of your [Private Internet Access](https://www.privateinternetaccess.com/) VPN status.
+- [tmux-plugin-playerctl](https://github.com/richin13/tmux-plugin-playerctl) Display [MPRIS](https://www.freedesktop.org/wiki/Specifications/mpris-spec/) metadata in Tmux (Spotify, Clementine, VLC, etc)
 - [tmux-pomodoro-plus](https://github.com/olimorris/tmux-pomodoro-plus) Incorporate the Pomodoro technique into your tmux workflow
 - [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight) Plugin that highlights when you press tmux prefix key
+- [tmux-split-statusbar](https://github.com/charlietag/tmux-split-statusbar) Plugin for splitting status bar into 2 parts - window + left/right status
 - [tmux-spotify-info](https://github.com/jdxcode/tmux-spotify-info) Spotify track info on your status bar (OSX)
 - [tmux-spotify-info](https://github.com/Feqzz/tmux-spotify-info) Spotify track info on your status bar (Linux)
 - [tmux-weather](https://github.com/jdxcode/tmux-weather) Add weather status via forcast.io
@@ -118,14 +128,17 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [tmux-fingers](https://github.com/Morantron/tmux-fingers) copy pasting in terminal with vimium/vimperator like hints.
 - [tmux-fuzzback](https://github.com/roosta/tmux-fuzzback) Search your scrollback buffer using fzf.
 - [tmux-fzf-url](https://github.com/wfxr/tmux-fzf-url) For opening urls from browser quickly without mouse.
+- [tmux-fzf-session-switch](https://github.com/thuanOwa/tmux-fzf-session-switch) Easy way to switch, when you have a ton of sessions.
 - [tmux-menus](https://github.com/jaclu/tmux-menus) - Popup menus to help with managing your environment.
 - [tmux-modal](https://github.com/whame/tmux-modal) - Execute complex tmux commands in just a few keystrokes with a modal mode that is designed to be efficient, easy to remember and comfortable.
 - [tmux-mouse-swipe](https://github.com/jaclu/tmux-mouse-swipe) - Switch Window or Session by clicking right mouse button and swiping.
 - [tmux-notify](https://github.com/ChanderG/tmux-notify) A plugin to notify you when processes complete.
+- [tmux-open-nvim](https://github.com/trevarj/tmux-open-nvim) - A plugin to help open files in a running instance of Neovim. Pairs well with tmux-fingers or tmux-open.
 - [tmux-thumbs](https://github.com/fcsonline/tmux-thumbs) A lightning fast version of tmux-fingers written in Rust, copy/pasting tmux like vimium/vimperator
 - [tmux-1password](https://github.com/yardnsm/tmux-1password) Access your 1Password login items in a tmux pane.
 - [tmux-jump](https://github.com/schasse/tmux-jump) Vimium/Easymotion like navigation for tmux.
 - [tmux-power-zoom](https://github.com/jaclu/tmux-power-zoom) Zoom pane to separate window, then unzoom it back into it's original location.
+- [tmux-session-wizard](https://github.com/27medkamal/tmux-session-wizard) One prefix to control all your session creation, naming, switching, etc using [fzf](https://github.com/junegunn/fzf) & [zoxide](https://github.com/ajeetdsouza/zoxide).
 - [tmux-simple-git-status](https://github.com/kristijanhusak/tmux-simple-git-status) Show branch and number of changes in current git repository
 - [tmux-spotify](https://github.com/xamut/tmux-spotify) Show a nice menu to manage Spotify application
 - [tmux-super-fingers](https://github.com/artemave/tmux_super_fingers) like fingers, but also opens files in vim.
